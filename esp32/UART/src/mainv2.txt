@@ -1,0 +1,76 @@
+#include <Arduino.h>
+#include "BluetoothSerial.h"
+
+constexpr int RXD2 = 16;
+constexpr int TXD2 = 17;
+
+BluetoothSerial SerialBT;
+
+/* ===== Buffers ===== */
+uint8_t txBuffer[16];   // pacote de 16 bytes
+uint8_t txIndex = 0;
+
+char hexPair[2];
+uint8_t hexPairIndex = 0;
+
+uint8_t rxByte;
+
+/* ===== Utils ===== */
+uint8_t hexCharToValue(char c) {
+    if (c >= '0' && c <= '9') return c - '0';
+    if (c >= 'A' && c <= 'F') return c - 'A' + 10;
+    if (c >= 'a' && c <= 'f') return c - 'a' + 10;
+    return 0;
+}
+
+void setup() {
+    Serial.begin(9600);
+    Serial2.begin(9600, SERIAL_8N1, RXD2, TXD2);
+    SerialBT.begin("ESP32_BT_UART");
+
+    Serial.println("Envie 16 bytes em HEX (32 chars)");
+}
+
+void loop() {
+    /* ===== Recepção Bluetooth ===== */
+    while (SerialBT.available()) {
+        char c = SerialBT.read();
+
+        if (c == '\n' || c == '\r' || c == ' ')
+            continue;
+
+        hexPair[hexPairIndex++] = c;
+
+        if (hexPairIndex == 2) {
+            uint8_t byteValue =
+                (hexCharToValue(hexPair[0]) << 4) |
+                 hexCharToValue(hexPair[1]);
+
+            txBuffer[txIndex++] = byteValue;
+            hexPairIndex = 0;
+
+            Serial.print("BT Byte recebido: 0x");
+            Serial.println(byteValue, HEX);
+
+            /* ===== Pacote completo ===== */
+            if (txIndex == 16) {
+                Serial.println("Pacote completo recebido!");
+
+                for (uint8_t i = 0; i < 16; i++) {
+                    Serial2.write(txBuffer[i]);
+                    Serial.print("UART -> 0x");
+                    Serial.println(txBuffer[i], HEX);
+                }
+
+                txIndex = 0;  // pronto para próximo bloco
+            }
+        }
+    }
+
+    /* ===== Recepção UART (opcional) ===== */
+    while (Serial2.available()) {
+        rxByte = Serial2.read();
+        Serial.print("UART RX: 0x");
+        Serial.println(rxByte, HEX);
+    }
+}

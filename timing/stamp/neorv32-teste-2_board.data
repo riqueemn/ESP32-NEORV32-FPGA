@@ -1,0 +1,167 @@
+/*
+ Copyright (C) 2025  Altera Corporation. All rights reserved.
+ Your use of Altera Corporation's design tools, logic functions 
+ and other software and tools, and any partner logic 
+ functions, and any output files from any of the foregoing 
+ (including device programming or simulation files), and any 
+ associated documentation or information are expressly subject 
+ to the terms and conditions of the Altera Program License 
+ Subscription Agreement, the Altera Quartus Prime License Agreement,
+ the Altera IP License Agreement, or other applicable license
+ agreement, including, without limitation, that your use is for
+ the sole purpose of programming logic devices manufactured by
+ Altera and sold by Altera or its authorized distributors.  Please
+ refer to the Altera Software License Subscription Agreements 
+ on the Quartus Prime software download page.
+*/
+MODELDATA
+/*MODELDATA HEADER*/
+/*
+ This file contains Slow Corner delays for the design using part EP4CE6E22C8
+ with speed grade 8, core voltage 1.2V, and temperature 85 Celsius
+
+*/
+DESIGN "neorv32-teste-2";
+TIMESCALE "1ns";
+
+
+
+
+
+TIMINGDATA
+
+ARCDATA
+pos_btn_fire__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.562");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.562");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_btn_intruder__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.535");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.535");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_uart_rxd__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.295");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.295");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_btn_fire__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("0.914");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("0.914");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_btn_intruder__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("0.887");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("0.887");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_uart_rxd__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.799");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.799");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__led_alarm__delay:
+CELL_RISE( scalar ) {
+VALUES ("7.350");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("7.350");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__led_arcondicionado__delay:
+CELL_RISE( scalar ) {
+VALUES ("7.673");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("7.673");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__led_lampada__delay:
+CELL_RISE( scalar ) {
+VALUES ("7.680");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("7.680");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__led_lock__delay:
+CELL_RISE( scalar ) {
+VALUES ("7.427");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("7.427");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__uart_txd__delay:
+CELL_RISE( scalar ) {
+VALUES ("7.189");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("7.189");
+}
+
+ENDARCDATA
+
+ENDTIMINGDATA
+
+ENDMODELDATA

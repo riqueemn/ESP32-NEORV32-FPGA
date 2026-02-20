@@ -1,0 +1,49 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "uart_txd",
+					"strict" : false
+				},
+				{
+					"name" : "led_lock",
+					"strict" : false
+				},
+				{
+					"name" : "led_alarm",
+					"strict" : false
+				},
+				{
+					"name" : "led_arcondicionado",
+					"strict" : false
+				},
+				{
+					"name" : "led_lampada",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst_n",
+					"strict" : false
+				},
+				{
+					"name" : "btn_fire",
+					"strict" : false
+				},
+				{
+					"name" : "btn_intruder",
+					"strict" : false
+				},
+				{
+					"name" : "uart_rxd",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
