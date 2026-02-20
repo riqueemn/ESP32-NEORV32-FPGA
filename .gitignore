@@ -1,1 +1,6 @@
 neorv32-main/
+db/
+incremental_db/
+timing/
+simulation/
+output_files/
