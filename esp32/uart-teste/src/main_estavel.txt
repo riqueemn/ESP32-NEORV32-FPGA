@@ -1,0 +1,75 @@
+#include <HardwareSerial.h>
+#include <BluetoothSerial.h>
+#include <iostream>
+#include <string>
+
+
+HardwareSerial MySerial(2);
+BluetoothSerial SerialBT;
+
+#define RX_PIN 16
+#define TX_PIN 17
+
+#define LED_BUILTIN 2
+
+void setup() {
+  Serial.begin(115200);
+  MySerial.begin(115200, SERIAL_8N1, 16, 17);
+
+  pinMode(LED_BUILTIN, OUTPUT);
+
+  SerialBT.begin("ESP32_Bluetooth");
+  Serial.println("Bluetooth inicializado! Conecte-se para receber dados.");
+}
+
+void loop() {
+  // Send data for FPGA
+  MySerial.write(0xFF);
+
+  // Received data of FPGA
+  if(MySerial.available()){
+    String received = MySerial.readString();
+    Serial.print("Received from FPGA: ");
+    Serial.println(received);
+
+    SerialBT.print("FPGA: ");
+    SerialBT.println(received);
+  }
+
+  if(SerialBT.available()) {
+    String btReceived = SerialBT.readString();
+    uint8_t b = 0x00;
+
+    Serial.print("Received from Bluetooth: ");
+    Serial.println(btReceived);
+
+    int byte = std::stoi(btReceived.c_str());
+
+    if(byte <= 255 && byte >= 0) {
+      b = static_cast<uint8_t>(byte);
+
+      if(b == 0xFF || b == 0x00) {
+        Serial.println("Received byte is 0xFF, skipping sending to FPGA.");
+        MySerial.write(b);
+        Serial.print("Sent to FPGA: ");
+        Serial.println(b, DEC);
+
+        digitalWrite(LED_BUILTIN, HIGH);
+        delay(1000);
+        digitalWrite(LED_BUILTIN, LOW);
+      } else {
+        Serial.println("Valid byte received from Bluetooth.");
+
+        digitalWrite(LED_BUILTIN, HIGH);
+        delay(500);
+        digitalWrite(LED_BUILTIN, LOW);
+        delay(500);
+        digitalWrite(LED_BUILTIN, HIGH);
+        delay(500);
+        digitalWrite(LED_BUILTIN, LOW);
+      }  
+    } else {
+      Serial.println("Invalid byte value received from Bluetooth.");
+    }
+  }
+}

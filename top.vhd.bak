@@ -1,0 +1,78 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity top_neorv32 is
+  port (
+    clk       : in  std_logic; -- Clock de 50MHz
+    rst_n     : in  std_logic; -- Reset Negativo (Push-button)
+    uart_txd  : out std_logic; -- UART TX
+    uart_rxd  : in  std_logic; -- UART RX
+    led_out   : out std_logic  -- LED físico da placa
+  );
+end entity;
+
+architecture rtl of top_neorv32 is
+
+  -- Sinais do Barramento Wishbone
+  signal wb_adr_o : std_logic_vector(31 downto 0);
+  signal wb_dat_i : std_logic_vector(31 downto 0);
+  signal wb_dat_o : std_logic_vector(31 downto 0);
+  signal wb_we_o  : std_logic;
+  signal wb_sel_o : std_logic_vector(3 downto 0);
+  signal wb_stb_o : std_logic;
+  signal wb_cyc_o : std_logic;
+  signal wb_ack_i : std_logic;
+
+begin
+
+  -- 1. Instância do Processador NEORV32
+  neorv32_top_inst: entity work.neorv32_top
+  generic map (
+    CLOCK_FREQUENCY   => 50000000,   -- 50 MHz
+    INT_BOOTLOADER_EN => true,       -- Habilita bootloader serial
+    MEM_INT_IMEM_SIZE => 16384,      -- 16KB Instrução
+    MEM_INT_DMEM_SIZE => 8192,       -- 8KB Dados
+    IO_UART0_EN       => true,       -- Habilita UART0
+    MEM_EXT_EN        => true        -- Habilita barramento Wishbone externo
+  )
+  port map (
+    clk_i          => clk,
+    rstn_i         => rst_n,
+    uart0_txd_o    => uart_txd,
+    uart0_rxd_i    => uart_rxd,
+    wb_adr_o       => wb_adr_o,
+    wb_dat_i       => wb_dat_i,
+    wb_dat_o       => wb_dat_o,
+    wb_we_o        => wb_we_o,
+    wb_sel_o       => wb_sel_o,
+    wb_stb_o       => wb_stb_o,
+    wb_cyc_o       => wb_cyc_o,
+    wb_ack_i       => wb_ack_i
+  );
+
+  -- 2. Periférico customizado para o LED (Wrapper em VHDL)
+  process(clk, rst_n)
+  begin
+    if rst_n = '0' then
+      wb_ack_i <= '0';
+      led_out  <= '0';
+    elsif rising_edge(clk) then
+      wb_ack_i <= '0';
+      -- Lógica de escrita no barramento (Endereço base 0x90000000)
+      -- O NEORV32 ignora os bits superiores no Wishbone para periféricos externos básicos
+      if (wb_cyc_o = '1' and wb_stb_o = '1') then
+        wb_ack_i <= '1'; -- Resposta imediata
+        if wb_we_o = '1' then
+          if wb_adr_o(7 downto 0) = x"00" then
+            led_out <= wb_dat_o(0); -- Bit 0 controla o LED
+          end if;
+        end if;
+      end if;
+    end if;
+  end process;
+
+  -- Resposta de leitura (retorna zero para o processador)
+  wb_dat_i <= (others => '0');
+
+end architecture;

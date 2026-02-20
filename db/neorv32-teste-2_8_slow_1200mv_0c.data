@@ -1,0 +1,140 @@
+
+
+
+TIMINGDATA
+
+ARCDATA
+pos_btn_fire__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.510");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.510");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_btn_intruder__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.486");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.486");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_uart_rxd__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.040");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.040");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_btn_fire__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("0.829");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("0.829");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_btn_intruder__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("0.806");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("0.806");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_uart_rxd__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.596");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.596");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__led_alarm__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.585");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.585");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__led_arcondicionado__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.898");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.898");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__led_lampada__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.908");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.908");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__led_lock__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.679");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.679");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__uart_txd__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.501");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.501");
+}
+
+ENDARCDATA
+
+ENDTIMINGDATA
+
+ENDMODELDATA

@@ -1,0 +1,80 @@
+#include <Arduino.h>
+#include "BluetoothSerial.h"
+
+constexpr int LED_PIN = 2;
+
+// UART2
+constexpr int RXD2 = 16;
+constexpr int TXD2 = 17;
+
+BluetoothSerial SerialBT;
+
+uint8_t txByte = 0x00;
+uint8_t rxByte = 0x00;
+
+char hexBuffer[2];
+uint8_t hexIndex = 0;
+
+uint8_t hexCharToValue(char c) {
+    if (c >= '0' && c <= '9') return c - '0';
+    if (c >= 'A' && c <= 'F') return c - 'A' + 10;
+    if (c >= 'a' && c <= 'f') return c - 'a' + 10;
+    return 0;
+}
+
+void setup() {
+    pinMode(LED_PIN, OUTPUT);
+
+    Serial.begin(9600);   // USB (debug)
+    Serial2.begin(9600, SERIAL_8N1, RXD2, TXD2);
+
+    SerialBT.begin("ESP32_BT_UART");
+
+    Serial.println("Sistema pronto");
+    Serial.println("Envie 1 byte em HEX via Bluetooth (ex: 8A)");
+}
+
+void loop() {
+    /* ===== Recebe dado via Bluetooth ===== */
+    while (SerialBT.available()) {
+        char c = SerialBT.read();
+
+        // Ignora espaços e enter
+        if (c == '\n' || c == '\r' || c == ' ')
+            continue;
+
+        hexBuffer[hexIndex++] = c;
+
+        if (hexIndex == 2) {
+            txByte = (hexCharToValue(hexBuffer[0]) << 4) |
+                      hexCharToValue(hexBuffer[1]);
+
+            Serial.print("Novo txByte recebido via BT: 0x");
+            Serial.println(txByte, HEX);
+
+            hexIndex = 0;
+        }
+    }
+
+    /* ===== Envia txByte pela UART ===== */
+    Serial2.write(txByte);
+    Serial.print("Enviado UART (Enviado para FPGA): 0x");
+    Serial.println(txByte, HEX);
+
+    /* ===== Recebe resposta da UART ===== */
+    unsigned long startTime = millis();
+    while (!Serial2.available()) {
+        if (millis() - startTime > 1000) {
+            Serial.println("Timeout RX UART");
+            break;
+        }
+    }
+
+    if (Serial2.available()) {
+        rxByte = Serial2.read();
+        Serial.print("Recebido UART (Enviado para ESP32): 0x");
+        Serial.println(rxByte, HEX);
+    }
+
+    delay(1000);
+}
