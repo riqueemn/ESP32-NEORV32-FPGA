@@ -5,6 +5,12 @@ state.S_IDLE 0 0 0
 state.S_BUSY_A 0 1 1 
 state.S_BUSY_B 1 0 1 
 
+State Machine - |top_neorv32|neorv32_top:neorv32_top_inst|neorv32_cpu:\core_complex_gen:0:neorv32_cpu_inst|neorv32_cpu_alu:neorv32_cpu_alu_inst|neorv32_cpu_alu_crypto:\neorv32_cpu_alu_crypto_enabled:neorv32_cpu_alu_crypto_inst|state
+Name state.S_DONE state.S_BUSY state.S_IDLE 
+state.S_IDLE 0 0 0 
+state.S_BUSY 0 1 1 
+state.S_DONE 1 0 1 
+
 State Machine - |top_neorv32|neorv32_top:neorv32_top_inst|neorv32_cpu:\core_complex_gen:0:neorv32_cpu_inst|neorv32_cpu_control:neorv32_cpu_control_inst|exec.state
 Name exec.state.S_SLEEP exec.state.S_SYSTEM exec.state.S_MEM_RSP exec.state.S_MEM_REQ exec.state.S_BRANCH exec.state.S_ALU_WAIT exec.state.S_EXECUTE exec.state.S_TRAP_EXIT exec.state.S_TRAP_ENTER exec.state.S_DISPATCH exec.state.S_RESTART 
 exec.state.S_RESTART 0 0 0 0 0 0 0 0 0 0 0 

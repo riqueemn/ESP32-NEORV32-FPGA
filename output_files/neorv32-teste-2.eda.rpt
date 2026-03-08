@@ -1,5 +1,5 @@
 EDA Netlist Writer report for neorv32-teste-2
-Thu Feb 19 19:14:34 2026
+Mon Mar  2 18:09:53 2026
 Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 
 
@@ -39,7 +39,7 @@ on the Quartus Prime software download page.
 +------------------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                                   ;
 +--------------------------------------+---------------------------------------+
-; EDA Netlist Writer Status            ; Successful - Thu Feb 19 19:14:34 2026 ;
+; EDA Netlist Writer Status            ; Successful - Mon Mar  2 18:09:53 2026 ;
 ; Revision Name                        ; neorv32-teste-2                       ;
 ; Top-level Entity Name                ; top_neorv32                           ;
 ; Family                               ; Cyclone IV E                          ;
@@ -110,7 +110,7 @@ on the Quartus Prime software download page.
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
     Info: Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
-    Info: Processing started: Thu Feb 19 19:14:33 2026
+    Info: Processing started: Mon Mar  2 18:09:53 2026
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off neorv32-teste-2 -c neorv32-teste-2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (204019): Generated file neorv32-teste-2.vho in folder "C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/simulation/questa/" for EDA simulation tool
@@ -120,8 +120,8 @@ Info (199047): Generated files "C:/Users/henri/Desktop/Trabalho Orientado 2/Proj
 Info (199047): Generated files "C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/timing/stamp//neorv32-teste-2_board.mod" and "C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/timing/stamp//neorv32-teste-2_board.data"
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4714 megabytes
-    Info: Processing ended: Thu Feb 19 19:14:34 2026
-    Info: Elapsed time: 00:00:01
+    Info: Processing ended: Mon Mar  2 18:09:53 2026
+    Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:01
 
 

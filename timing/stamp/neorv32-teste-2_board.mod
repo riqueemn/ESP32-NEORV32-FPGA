@@ -23,7 +23,7 @@ MODEL
 */
 MODEL_VERSION "1.0";
 DESIGN "neorv32-teste-2";
-DATE "02/19/2026 19:14:34";
+DATE "03/02/2026 18:09:53";
 PROGRAM "Quartus Prime";
 
 
@@ -31,8 +31,8 @@ PROGRAM "Quartus Prime";
 INPUT rst_n;
 INPUT clk;
 INPUT uart_rxd;
-INPUT btn_fire;
 INPUT btn_intruder;
+INPUT btn_fire;
 OUTPUT uart_txd;
 OUTPUT led_lock;
 OUTPUT led_alarm;

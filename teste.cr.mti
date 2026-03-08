@@ -1,0 +1,652 @@
+{C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cache_ram.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cache_ram.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cache_ram.vhd(19): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cache_ram.vhd(19): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cache_ram.vhd(21): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cfs.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cfs.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cfs.vhd(16): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cfs.vhd(16): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cfs.vhd(18): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_bootrom_image.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_bootrom_image.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package neorv32_bootrom_image
+
+} {} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_bootrom_rom.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_bootrom_rom.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_bootrom_rom.vhd(18): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_bootrom_rom.vhd(18): Unknown expanded name.
+** Error: (vcom-11) Could not find neorv32.neorv32_bootrom_image.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_bootrom_rom.vhd(19): (vcom-1195) Cannot find expanded name "neorv32.neorv32_bootrom_image".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_bootrom_rom.vhd(19): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_bootrom_rom.vhd(21): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 11.0 12.0 13.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_imem.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_imem.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_imem.vhd(15): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_imem.vhd(15): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_imem.vhd(17): VHDL Compiler exiting
+
+} {6.0 7.0 8.0 9.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_onewire.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_onewire.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_onewire.vhd(16): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_onewire.vhd(16): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_onewire.vhd(18): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_fpu.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_fpu.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_fpu.vhd(31): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_fpu.vhd(31): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_fpu.vhd(33): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_debug_dtm.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_debug_dtm.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_debug_dtm.vhd(17): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_debug_dtm.vhd(17): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_debug_dtm.vhd(19): VHDL Compiler exiting
+
+} {6.0 7.0 8.0 9.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_regfile.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_regfile.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_regfile.vhd(26): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_regfile.vhd(26): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_regfile.vhd(28): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/top_neorv32.v} {1 {vlog -work work -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/top_neorv32.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top_neorv32
+
+Top level modules:
+	top_neorv32
+
+} {} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_twd.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_twd.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_twd.vhd(16): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_twd.vhd(16): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_twd.vhd(18): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_frontend.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_frontend.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_frontend.vhd(20): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_frontend.vhd(20): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_frontend.vhd(22): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_gpio.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_gpio.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_gpio.vhd(15): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_gpio.vhd(15): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_gpio.vhd(17): VHDL Compiler exiting
+
+} {6.0 7.0 8.0 9.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_tracer.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_tracer.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_tracer.vhd(16): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_tracer.vhd(16): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_tracer.vhd(18): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_clint.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_clint.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_clint.vhd(19): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_clint.vhd(19): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_clint.vhd(21): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_imem_image.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_imem_image.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package neorv32_imem_image
+
+} {} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_top.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_top.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_top.vhd(19): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_top.vhd(19): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_top.vhd(21): VHDL Compiler exiting
+
+} {6.0 7.0 8.0 9.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_lsu.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_lsu.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_lsu.vhd(16): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_lsu.vhd(16): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_lsu.vhd(18): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cache.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cache.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cache.vhd(25): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cache.vhd(25): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cache.vhd(27): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_neoled.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_neoled.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_neoled.vhd(16): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_neoled.vhd(16): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_neoled.vhd(18): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_debug_auth.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_debug_auth.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity neorv32_debug_auth
+-- Compiling architecture neorv32_debug_auth_rtl of neorv32_debug_auth
+
+} {} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu.vhd(16): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu.vhd(16): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu.vhd(18): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_xbus.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:\Users\henri\Desktop\Trabalho Orientado 2\Projetos\neorv32-teste-fsm\neorv32-main\rtl\core\neorv32_xbus.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:\Users\henri\Desktop\Trabalho Orientado 2\Projetos\neorv32-teste-fsm\neorv32-main\rtl\core\neorv32_xbus.vhd(19): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:\Users\henri\Desktop\Trabalho Orientado 2\Projetos\neorv32-teste-fsm\neorv32-main\rtl\core\neorv32_xbus.vhd(19): Unknown expanded name.
+** Note: C:\Users\henri\Desktop\Trabalho Orientado 2\Projetos\neorv32-teste-fsm\neorv32-main\rtl\core\neorv32_xbus.vhd(21): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_bootrom.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_bootrom.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_bootrom.vhd(15): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_bootrom.vhd(15): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_bootrom.vhd(17): VHDL Compiler exiting
+
+} {6.0 7.0 8.0 9.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_counters.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_counters.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_counters.vhd(21): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_counters.vhd(21): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_counters.vhd(23): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_trng.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_trng.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_trng.vhd(18): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_trng.vhd(18): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_trng.vhd(20): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_shifter.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_shifter.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_shifter.vhd(19): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_shifter.vhd(19): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_shifter.vhd(21): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_decompressor.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_decompressor.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_decompressor.vhd(19): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_decompressor.vhd(19): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_decompressor.vhd(21): VHDL Compiler exiting
+
+} {6.0 7.0 8.0 9.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_cfu.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_cfu.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity neorv32_cpu_alu_cfu
+-- Compiling architecture neorv32_cpu_alu_cfu_rtl of neorv32_cpu_alu_cfu
+
+} {} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_sys.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_sys.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_sys.vhd(15): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_sys.vhd(15): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_sys.vhd(17): VHDL Compiler exiting
+
+} {6.0 7.0 8.0 9.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu.vhd(19): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu.vhd(19): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu.vhd(21): VHDL Compiler exiting
+
+} {6.0 7.0 8.0 9.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_uart.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_uart.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_uart.vhd(22): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_uart.vhd(22): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_uart.vhd(24): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_hwtrig.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_hwtrig.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_hwtrig.vhd(19): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_hwtrig.vhd(19): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_hwtrig.vhd(21): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_spi.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_spi.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_spi.vhd(16): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_spi.vhd(16): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_spi.vhd(18): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_wdt.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_wdt.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_wdt.vhd(16): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_wdt.vhd(16): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_wdt.vhd(18): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_control.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_control.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_control.vhd(16): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_control.vhd(16): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_control.vhd(18): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_crypto.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_crypto.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_crypto.vhd(23): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_crypto.vhd(23): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_crypto.vhd(25): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_gptmr.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_gptmr.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_gptmr.vhd(18): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_gptmr.vhd(18): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_gptmr.vhd(20): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_dmem.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_dmem.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_dmem.vhd(15): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_dmem.vhd(15): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_dmem.vhd(17): VHDL Compiler exiting
+
+} {6.0 7.0 8.0 9.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_package.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_package.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package neorv32_package
+-- Compiling package body neorv32_package
+-- Loading package neorv32_package
+
+} {} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_trace.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_trace.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_trace.vhd(16): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_trace.vhd(16): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_trace.vhd(18): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity neorv32_prim_fifo
+-- Compiling architecture neorv32_prim_fifo_rtl of neorv32_prim_fifo
+** Warning: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd(53): Nonresolved signal 'rdata' may have multiple sources.
+  Drivers:
+    C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd(142):Conditional signal assignment line__142
+    C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd(118):Process memory_core
+       Driven at:
+          C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd(124)
+** Warning: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd(54): Nonresolved signal 'match' may have multiple sources.
+  Drivers:
+    C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd(102):Conditional signal assignment line__102
+    C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd(85):Conditional signal assignment line__85
+** Warning: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd(54): Nonresolved signal 'full' may have multiple sources.
+  Drivers:
+    C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd(103):Conditional signal assignment line__103
+    C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd(86):Conditional signal assignment line__86
+** Warning: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd(54): Nonresolved signal 'empty' may have multiple sources.
+  Drivers:
+    C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd(104):Conditional signal assignment line__104
+    C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd(87):Conditional signal assignment line__87
+** Warning: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd(54): Nonresolved signal 'avail' may have multiple sources.
+  Drivers:
+    C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd(105):Conditional signal assignment line__105
+    C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd(89):Process status_reg
+       Driven at:
+          C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd(92)
+-- Compiling entity neorv32_prim_spram
+-- Compiling architecture neorv32_prim_spram_rtl of neorv32_prim_spram
+** Warning: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd(182): Nonresolved signal 'data_o' may have multiple sources.
+  Drivers:
+    C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd(239):Conditional signal assignment line__239
+    C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd(228):Process read_outreg
+       Driven at:
+          C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd(231)
+** Warning: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd(190): Nonresolved signal 'rdata' may have multiple sources.
+  Drivers:
+    C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd(214):Process memory_core
+       Driven at:
+          C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd(218)
+    C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd(198):Process memory_core
+       Driven at:
+          C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd(205)
+-- Compiling entity neorv32_prim_mul
+-- Compiling architecture neorv32_prim_mul_rtl of neorv32_prim_mul
+-- Compiling entity neorv32_prim_cnt
+-- Compiling architecture neorv32_prim_cnt_rtl of neorv32_prim_cnt
+
+} {} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_sysinfo.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_sysinfo.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_sysinfo.vhd(16): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_sysinfo.vhd(16): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_sysinfo.vhd(18): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_twi.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_twi.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_twi.vhd(16): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_twi.vhd(16): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_twi.vhd(18): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_cond.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_cond.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_cond.vhd(15): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_cond.vhd(15): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_cond.vhd(17): VHDL Compiler exiting
+
+} {6.0 7.0 8.0 9.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_pwm.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_pwm.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_pwm.vhd(19): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_pwm.vhd(19): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_pwm.vhd(21): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_imem_rom.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_imem_rom.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_imem_rom.vhd(18): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_imem_rom.vhd(18): Unknown expanded name.
+** Error: (vcom-11) Could not find neorv32.neorv32_imem_image.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_imem_rom.vhd(19): (vcom-1195) Cannot find expanded name "neorv32.neorv32_imem_image".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_imem_rom.vhd(19): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_imem_rom.vhd(21): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 11.0 12.0 13.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_imem_ram.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_imem_ram.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_imem_ram.vhd(18): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_imem_ram.vhd(18): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_imem_ram.vhd(20): VHDL Compiler exiting
+
+} {6.0 7.0 8.0 9.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_sdi.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_sdi.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_sdi.vhd(16): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_sdi.vhd(16): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_sdi.vhd(18): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_muldiv.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_muldiv.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_muldiv.vhd(21): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_muldiv.vhd(21): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_muldiv.vhd(23): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_slink.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_slink.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_slink.vhd(16): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_slink.vhd(16): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_slink.vhd(18): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_bus.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_bus.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_bus.vhd(15): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_bus.vhd(15): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_bus.vhd(17): VHDL Compiler exiting
+
+} {6.0 7.0 8.0 9.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_dmem_ram.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_dmem_ram.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_dmem_ram.vhd(18): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_dmem_ram.vhd(18): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_dmem_ram.vhd(20): VHDL Compiler exiting
+
+} {6.0 7.0 8.0 9.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_bitmanip.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_bitmanip.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_bitmanip.vhd(25): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_bitmanip.vhd(25): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_bitmanip.vhd(27): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_pmp.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_pmp.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_pmp.vhd(20): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_pmp.vhd(20): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_pmp.vhd(22): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/top_neorv32_testbench.v} {1 {vlog -work work -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/top_neorv32_testbench.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top_neorv32_tb
+
+Top level modules:
+	top_neorv32_tb
+
+} {} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_debug_dm.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_debug_dm.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_debug_dm.vhd(19): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_debug_dm.vhd(19): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_debug_dm.vhd(21): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}} {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_dma.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_dma.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find neorv32.neorv32_package.
+** Error (suppressible): C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_dma.vhd(16): (vcom-1195) Cannot find expanded name "neorv32.neorv32_package".
+** Error: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_dma.vhd(16): Unknown expanded name.
+** Note: C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_dma.vhd(18): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}}

@@ -57,6 +57,83 @@ set_global_assignment -name EDA_OUTPUT_DATA_FORMAT STAMP -section_id eda_board_d
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_location_assignment PIN_25 -to rst_n
+set_location_assignment PIN_23 -to clk
+set_location_assignment PIN_114 -to uart_txd
+set_location_assignment PIN_115 -to uart_rxd
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to uart_rxd
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to uart_txd
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_87 -to led_lock
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to clk
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to rst_n
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to led_lock
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to led_alarm
+set_location_assignment PIN_86 -to led_alarm
+set_location_assignment PIN_88 -to btn_intruder
+set_location_assignment PIN_89 -to btn_fire
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to btn_fire
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to btn_intruder
+set_location_assignment PIN_85 -to led_arcondicionado
+set_location_assignment PIN_84 -to led_lampada
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to led_lampada
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to led_arcondicionado
+set_global_assignment -name VHDL_FILE "neorv32-main/rtl/core/neorv32_spi.vhd"
+set_global_assignment -name VERILOG_FILE subBytes_tb.v
+set_global_assignment -name VERILOG_FILE subBytes.v
+set_global_assignment -name VERILOG_FILE sub_bytes_like.v
+set_global_assignment -name VERILOG_FILE speed_select.v
+set_global_assignment -name VERILOG_FILE sled.v
+set_global_assignment -name VERILOG_FILE Single_Encrypt_Round_Logic.v
+set_global_assignment -name VERILOG_FILE single_Decrypt_Round_Logic.v
+set_global_assignment -name VERILOG_FILE shiftRows_tb.v
+set_global_assignment -name VERILOG_FILE shiftRows.v
+set_global_assignment -name VERILOG_FILE shift_rows_like.v
+set_global_assignment -name VERILOG_FILE SEG_D.v
+set_global_assignment -name VERILOG_FILE sbox.v
+set_global_assignment -name VERILOG_FILE rx_buffer_16b.v
+set_global_assignment -name VERILOG_FILE my_uart_tx.v
+set_global_assignment -name VERILOG_FILE my_uart_top.v
+set_global_assignment -name VERILOG_FILE my_uart_rx.v
+set_global_assignment -name VERILOG_FILE mixColumns_tb.v
+set_global_assignment -name VERILOG_FILE mixColumns.v
+set_global_assignment -name VERILOG_FILE keyExpansion_tb.v
+set_global_assignment -name VERILOG_FILE keyExpansion.v
+set_global_assignment -name VERILOG_FILE inverseSubBytes_tb.v
+set_global_assignment -name VERILOG_FILE inverseSubBytes.v
+set_global_assignment -name VERILOG_FILE inverseShiftRows_tb.v
+set_global_assignment -name VERILOG_FILE inverseShiftRows.v
+set_global_assignment -name VERILOG_FILE inverseSbox.v
+set_global_assignment -name VERILOG_FILE inverseMixColumns_tb.v
+set_global_assignment -name VERILOG_FILE inverseMixColumns.v
+set_global_assignment -name VERILOG_FILE fsm_security.v
+set_global_assignment -name VERILOG_FILE fsm_lighting.v
+set_global_assignment -name VERILOG_FILE fsm_fire.v
+set_global_assignment -name VERILOG_FILE fsm_climate.v
+set_global_assignment -name VERILOG_FILE encryptRound.v
+set_global_assignment -name VERILOG_FILE decryptRound.v
+set_global_assignment -name VERILOG_FILE command_decoder.v
+set_global_assignment -name VERILOG_FILE AES_tb.v
+set_global_assignment -name VERILOG_FILE aes_round.v
+set_global_assignment -name VERILOG_FILE aes_like_subbytes.v
+set_global_assignment -name VERILOG_FILE aes_like_shiftrows.v
+set_global_assignment -name VERILOG_FILE aes_like_core.v
+set_global_assignment -name VERILOG_FILE aes_iterative_top.v
+set_global_assignment -name VERILOG_FILE AES_Encrypt_tb.v
+set_global_assignment -name VERILOG_FILE AES_Encrypt_Iterative.v
+set_global_assignment -name VERILOG_FILE AES_Encrypt.v
+set_global_assignment -name VERILOG_FILE AES_Decrypt_tb.v
+set_global_assignment -name VERILOG_FILE AES_Decrypt_Iterative.v
+set_global_assignment -name VERILOG_FILE AES_Decrypt.v
+set_global_assignment -name VERILOG_FILE AES.v
+set_global_assignment -name VERILOG_FILE addRoundKey_tb.v
+set_global_assignment -name VERILOG_FILE addRoundKey.v
+set_global_assignment -name VERILOG_FILE add_round_key.v
+set_global_assignment -name VERILOG_FILE top_neorv32.v
 set_global_assignment -name VHDL_FILE "neorv32-main/rtl/core/neorv32_xbus.vhd"
 set_global_assignment -name VHDL_FILE "neorv32-main/rtl/core/neorv32_wdt.vhd"
 set_global_assignment -name VHDL_FILE "neorv32-main/rtl/core/neorv32_uart.vhd"
@@ -67,7 +144,6 @@ set_global_assignment -name VHDL_FILE "neorv32-main/rtl/core/neorv32_tracer.vhd"
 set_global_assignment -name VHDL_FILE "neorv32-main/rtl/core/neorv32_top.vhd"
 set_global_assignment -name VHDL_FILE "neorv32-main/rtl/core/neorv32_sysinfo.vhd"
 set_global_assignment -name VHDL_FILE "neorv32-main/rtl/core/neorv32_sys.vhd"
-set_global_assignment -name VHDL_FILE "neorv32-main/rtl/core/neorv32_spi.vhd"
 set_global_assignment -name VHDL_FILE "neorv32-main/rtl/core/neorv32_slink.vhd"
 set_global_assignment -name VHDL_FILE "neorv32-main/rtl/core/neorv32_sdi.vhd"
 set_global_assignment -name VHDL_FILE "neorv32-main/rtl/core/neorv32_pwm.vhd"
@@ -113,30 +189,5 @@ set_global_assignment -name VHDL_FILE "neorv32-main/rtl/core/neorv32_bus.vhd"
 set_global_assignment -name VHDL_FILE "neorv32-main/rtl/core/neorv32_bootrom_rom.vhd"
 set_global_assignment -name VHDL_FILE "neorv32-main/rtl/core/neorv32_bootrom_image.vhd"
 set_global_assignment -name VHDL_FILE "neorv32-main/rtl/core/neorv32_bootrom.vhd"
-set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
-set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
-set_location_assignment PIN_25 -to rst_n
-set_location_assignment PIN_23 -to clk
-set_location_assignment PIN_114 -to uart_txd
-set_location_assignment PIN_115 -to uart_rxd
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to uart_rxd
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to uart_txd
-set_global_assignment -name VERILOG_FILE top_neorv32.v
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_location_assignment PIN_87 -to led_lock
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to clk
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to rst_n
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to led_lock
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to led_alarm
-set_location_assignment PIN_86 -to led_alarm
-set_location_assignment PIN_88 -to btn_intruder
-set_location_assignment PIN_89 -to btn_fire
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to btn_fire
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to btn_intruder
-set_location_assignment PIN_85 -to led_arcondicionado
-set_location_assignment PIN_84 -to led_lampada
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to led_lampada
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to led_arcondicionado
+set_global_assignment -name VERILOG_FILE top_neorv32_testbench.v
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

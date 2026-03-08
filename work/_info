@@ -1,0 +1,424 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/henri/Desktop/Trabalho Orientado 2/teste
+Eaes_sim_tb
+w1772485516
+Z0 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z1 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z2 dC:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm
+8C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/top_neorv32_testbench.vhd
+FC:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/top_neorv32_testbench.vhd
+l0
+L4 1
+VZnE5WO_4R4^23e3o0UN=01
+!s100 l3]5773I>UJ`UIV7S11N`2
+Z3 OV;C;2020.1;71
+32
+!s110 1772486143
+!i10b 1
+!s108 1772486143.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/top_neorv32_testbench.vhd|
+!s107 C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/top_neorv32_testbench.vhd|
+!i113 1
+Z4 o-work work -2002 -explicit
+Z5 tExplicit 1 CvgOpt 0
+Pneorv32_bootrom_image
+R0
+R1
+!i122 21
+Z6 w1771176445
+R2
+8C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_bootrom_image.vhd
+FC:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_bootrom_image.vhd
+l0
+L4 1
+V1EEIKf0>OaoQH8g2A`@oT1
+!s100 D4YJCz;^R:d5d6K6QLh=42
+R3
+32
+Z7 !s110 1772486578
+!i10b 1
+Z8 !s108 1772486578.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_bootrom_image.vhd|
+!s107 C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_bootrom_image.vhd|
+!i113 1
+R4
+R5
+Eneorv32_cpu_alu_cfu
+R6
+Z9 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R0
+R1
+!i122 22
+R2
+Z10 8C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_cfu.vhd
+Z11 FC:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_cfu.vhd
+l0
+L18 1
+VlGR_YSG^El1WRM39?CYmI3
+!s100 kjjzmEB;D@mKoTH`B^U^o3
+R3
+32
+R7
+!i10b 1
+R8
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_cfu.vhd|
+Z13 !s107 C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_cpu_alu_cfu.vhd|
+!i113 1
+R4
+R5
+Aneorv32_cpu_alu_cfu_rtl
+R9
+R0
+R1
+DEx4 work 19 neorv32_cpu_alu_cfu 0 22 lGR_YSG^El1WRM39?CYmI3
+!i122 22
+l82
+L49 121
+V8NmIbibfDePEI6PBH2Pzi3
+!s100 UCm3Q0PC>DUB[:_eBYRJP1
+R3
+32
+R7
+!i10b 1
+R8
+R12
+R13
+!i113 1
+R4
+R5
+Eneorv32_debug_auth
+R6
+R0
+R1
+!i122 23
+R2
+Z14 8C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_debug_auth.vhd
+Z15 FC:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_debug_auth.vhd
+l0
+L19 1
+VC@UM2[:dQhl2iLJO21V=S1
+!s100 KEnle30BaaVSE2?7HQE`E2
+R3
+32
+Z16 !s110 1772486580
+!i10b 1
+Z17 !s108 1772486580.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_debug_auth.vhd|
+Z19 !s107 C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_debug_auth.vhd|
+!i113 1
+R4
+R5
+Aneorv32_debug_auth_rtl
+R0
+R1
+DEx4 work 18 neorv32_debug_auth 0 22 C@UM2[:dQhl2iLJO21V=S1
+!i122 23
+l40
+L36 34
+V[l=^83n_RT_91L^_DIJ;80
+!s100 T];bZ_>k<<Yli;=;W@kAe2
+R3
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R4
+R5
+Pneorv32_imem_image
+R0
+R1
+!i122 24
+R6
+R2
+8C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_imem_image.vhd
+FC:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_imem_image.vhd
+l0
+L4 1
+Vmb4Zl0lh`4lM;FM]mdd2B1
+!s100 JJzZVfh;a<i^oWi0Glnj00
+R3
+32
+R16
+!i10b 1
+R17
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_imem_image.vhd|
+!s107 C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_imem_image.vhd|
+!i113 1
+R4
+R5
+Pneorv32_package
+R9
+R0
+R1
+!i122 25
+R6
+R2
+Z20 8C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_package.vhd
+Z21 FC:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_package.vhd
+l0
+L15 1
+V]8bbIC591WnSETR05_f`h1
+!s100 bSgloE<n>OEmGMinLPoAe0
+R3
+32
+b1
+Z22 !s110 1772486581
+!i10b 1
+Z23 !s108 1772486581.000000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_package.vhd|
+Z25 !s107 C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_package.vhd|
+!i113 1
+R4
+R5
+Bbody
+DPx4 work 15 neorv32_package 0 22 ]8bbIC591WnSETR05_f`h1
+R9
+R0
+R1
+!i122 25
+l0
+L1023 1
+V9[ZYSBELgbXWMb:_^XSHn3
+!s100 QVifn:mU4X06H2c1X]4ED0
+R3
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R4
+R5
+Eneorv32_prim_cnt
+R6
+R9
+R0
+R1
+!i122 26
+R2
+Z26 8C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd
+Z27 FC:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd
+l0
+L332 1
+VhBC7zBj5Q_IV?N1I;Do?73
+!s100 8X?AY?g]0CG6nnc;Oc6<z3
+R3
+32
+R22
+!i10b 1
+R23
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd|
+Z29 !s107 C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/neorv32-main/rtl/core/neorv32_prim.vhd|
+!i113 1
+R4
+R5
+Aneorv32_prim_cnt_rtl
+R9
+R0
+R1
+Z30 DEx4 work 16 neorv32_prim_cnt 0 22 hBC7zBj5Q_IV?N1I;Do?73
+!i122 26
+l355
+Z31 L349 51
+Z32 V8LNA59PlBJ8WLkDfH=ljM1
+Z33 !s100 QRYY_H`3o7U@1Y?J8^bTi3
+R3
+32
+R22
+!i10b 1
+R23
+R28
+R29
+!i113 1
+R4
+R5
+Eneorv32_prim_fifo
+R6
+R9
+R0
+R1
+!i122 26
+R2
+R26
+R27
+l0
+L24 1
+V[mm8>[8C1]aQO1VM=BjL?2
+!s100 bOG?KW47c@QH^kU8mbkUj0
+R3
+32
+R22
+!i10b 1
+R23
+R28
+R29
+!i113 1
+R4
+R5
+Aneorv32_prim_fifo_rtl
+R9
+R0
+R1
+Z34 DEx4 work 17 neorv32_prim_fifo 0 22 [mm8>[8C1]aQO1VM=BjL?2
+!i122 26
+l57
+Z35 L46 103
+Z36 VHkm[n`acidNFH55z`UhgF1
+Z37 !s100 ]7SNLNNhCJh;cz6BaO54Q0
+R3
+32
+R22
+!i10b 1
+R23
+R28
+R29
+!i113 1
+R4
+R5
+Eneorv32_prim_mul
+R6
+R9
+R0
+R1
+!i122 26
+R2
+R26
+R27
+l0
+L259 1
+V>0QOhNQ^GN]`Z^BW8AnJ[2
+!s100 k9TI:<?nJ:SOJ2WAb:5HZ1
+R3
+32
+R22
+!i10b 1
+R23
+R28
+R29
+!i113 1
+R4
+R5
+Aneorv32_prim_mul_rtl
+R9
+R0
+R1
+Z38 DEx4 work 16 neorv32_prim_mul 0 22 >0QOhNQ^GN]`Z^BW8AnJ[2
+!i122 26
+l282
+Z39 L277 35
+Z40 Vml7[KNf>S]0K<L4^^_FM>0
+Z41 !s100 <GJE?3GzCW_Q7`43a?h:]3
+R3
+32
+R22
+!i10b 1
+R23
+R28
+R29
+!i113 1
+R4
+R5
+Eneorv32_prim_spram
+R6
+R9
+R0
+R1
+!i122 26
+R2
+R26
+R27
+l0
+L168 1
+V9nfFgnC10NjzXb;HlzR7W0
+!s100 ;W>hMd3Y6Md;^2jcWehdX1
+R3
+32
+R22
+!i10b 1
+R23
+R28
+R29
+!i113 1
+R4
+R5
+Aneorv32_prim_spram_rtl
+R9
+R0
+R1
+Z42 DEx4 work 18 neorv32_prim_spram 0 22 9nfFgnC10NjzXb;HlzR7W0
+!i122 26
+l192
+Z43 L186 57
+Z44 Vl`9a5[z;[m_0`3??hJM9e1
+Z45 !s100 EA`QG?mMS=`HeI[0a6QGm3
+R3
+32
+R22
+!i10b 1
+R23
+R28
+R29
+!i113 1
+R4
+R5
+vtop_neorv32
+R7
+!i10b 1
+!s100 NH2=nNJnaW5d<E6nOUV2]3
+Z46 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IOB;J?D]0n`Gjc9@iE4ZOY1
+Z47 VDg1SIo80bB@j0V0VzS_@n1
+R2
+w1772145267
+8C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/top_neorv32.v
+FC:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/top_neorv32.v
+!i122 19
+L0 1 90
+Z48 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1772486577.000000
+!s107 C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/top_neorv32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/top_neorv32.v|
+!i113 1
+Z49 o-work work
+Z50 tCvgOpt 0
+vtop_neorv32_tb
+R7
+!i10b 1
+!s100 i70FRPeFB3>Pa38XU>80:1
+R46
+Ijla[_?e3^U`jn37e?5W850
+R47
+R2
+w1772485767
+8C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/top_neorv32_testbench.v
+FC:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/top_neorv32_testbench.v
+!i122 20
+L0 3 116
+R48
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/top_neorv32_testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/henri/Desktop/Trabalho Orientado 2/Projetos/neorv32-teste-fsm/top_neorv32_testbench.v|
+!i113 1
+R49
+R50

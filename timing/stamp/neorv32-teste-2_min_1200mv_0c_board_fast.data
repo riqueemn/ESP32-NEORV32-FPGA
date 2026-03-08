@@ -33,11 +33,11 @@ TIMINGDATA
 ARCDATA
 pos_btn_fire__clk__setup:
 RISE_CONSTRAINT( scalar ) {
-VALUES ("-0.269");
+VALUES ("-0.535");
 }
 
 FALL_CONSTRAINT( scalar ) {
-VALUES ("-0.269");
+VALUES ("-0.535");
 }
 
 ENDARCDATA
@@ -45,11 +45,11 @@ ENDARCDATA
 ARCDATA
 pos_btn_intruder__clk__setup:
 RISE_CONSTRAINT( scalar ) {
-VALUES ("-0.253");
+VALUES ("-0.735");
 }
 
 FALL_CONSTRAINT( scalar ) {
-VALUES ("-0.253");
+VALUES ("-0.735");
 }
 
 ENDARCDATA
@@ -57,11 +57,11 @@ ENDARCDATA
 ARCDATA
 pos_uart_rxd__clk__setup:
 RISE_CONSTRAINT( scalar ) {
-VALUES ("1.091");
+VALUES ("1.159");
 }
 
 FALL_CONSTRAINT( scalar ) {
-VALUES ("1.091");
+VALUES ("1.159");
 }
 
 ENDARCDATA
@@ -69,11 +69,11 @@ ENDARCDATA
 ARCDATA
 pos_btn_fire__clk__hold:
 RISE_CONSTRAINT( scalar ) {
-VALUES ("0.417");
+VALUES ("0.689");
 }
 
 FALL_CONSTRAINT( scalar ) {
-VALUES ("0.417");
+VALUES ("0.689");
 }
 
 ENDARCDATA
@@ -81,11 +81,11 @@ ENDARCDATA
 ARCDATA
 pos_btn_intruder__clk__hold:
 RISE_CONSTRAINT( scalar ) {
-VALUES ("0.402");
+VALUES ("0.881");
 }
 
 FALL_CONSTRAINT( scalar ) {
-VALUES ("0.402");
+VALUES ("0.881");
 }
 
 ENDARCDATA
@@ -93,11 +93,11 @@ ENDARCDATA
 ARCDATA
 pos_uart_rxd__clk__hold:
 RISE_CONSTRAINT( scalar ) {
-VALUES ("-0.875");
+VALUES ("-0.938");
 }
 
 FALL_CONSTRAINT( scalar ) {
-VALUES ("-0.875");
+VALUES ("-0.938");
 }
 
 ENDARCDATA
@@ -105,11 +105,11 @@ ENDARCDATA
 ARCDATA
 pos_clk__led_alarm__delay:
 CELL_RISE( scalar ) {
-VALUES ("3.538");
+VALUES ("3.924");
 }
 
 CELL_FALL( scalar ) {
-VALUES ("3.538");
+VALUES ("3.924");
 }
 
 ENDARCDATA
@@ -117,11 +117,11 @@ ENDARCDATA
 ARCDATA
 pos_clk__led_arcondicionado__delay:
 CELL_RISE( scalar ) {
-VALUES ("3.655");
+VALUES ("3.880");
 }
 
 CELL_FALL( scalar ) {
-VALUES ("3.655");
+VALUES ("3.880");
 }
 
 ENDARCDATA
@@ -129,11 +129,11 @@ ENDARCDATA
 ARCDATA
 pos_clk__led_lampada__delay:
 CELL_RISE( scalar ) {
-VALUES ("3.660");
+VALUES ("3.706");
 }
 
 CELL_FALL( scalar ) {
-VALUES ("3.660");
+VALUES ("3.706");
 }
 
 ENDARCDATA
@@ -141,11 +141,11 @@ ENDARCDATA
 ARCDATA
 pos_clk__led_lock__delay:
 CELL_RISE( scalar ) {
-VALUES ("3.521");
+VALUES ("3.694");
 }
 
 CELL_FALL( scalar ) {
-VALUES ("3.521");
+VALUES ("3.694");
 }
 
 ENDARCDATA
@@ -153,11 +153,11 @@ ENDARCDATA
 ARCDATA
 pos_clk__uart_txd__delay:
 CELL_RISE( scalar ) {
-VALUES ("3.479");
+VALUES ("4.101");
 }
 
 CELL_FALL( scalar ) {
-VALUES ("3.479");
+VALUES ("4.101");
 }
 
 ENDARCDATA
