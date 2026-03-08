@@ -4,8 +4,8 @@
 INPUT rst_n;
 INPUT clk;
 INPUT uart_rxd;
-INPUT btn_fire;
 INPUT btn_intruder;
+INPUT btn_fire;
 OUTPUT uart_txd;
 OUTPUT led_lock;
 OUTPUT led_alarm;
